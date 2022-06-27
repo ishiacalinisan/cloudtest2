@@ -28,7 +28,15 @@
     "redux-thunk": "^2.3.0",
     "swiper": "^5.3.6",
     "uuid": "^7.0.2",
-    "yarn": "^1.22.18"
+    "yarn": "^1.22.18",
+    "@syncfusion/ej2-react-calendars": "^20.1.58",
+    "@syncfusion/ej2-react-splitbuttons": "^20.1.57",
+    "firebase": "^9.8.3",
+    "moment": "^2.29.3",
+    "react-accessible-dropdown-menu-hook": "^3.2.0",
+    "react-calendar": "^3.7.0",
+    "react-calendar-pane": "^1.0.4",
+    "react-dropdown": "^1.10.0"
   },
   "scripts": {
     "start": "react-scripts start",
