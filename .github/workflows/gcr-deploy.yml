@@ -34,6 +34,11 @@ jobs:
         env:
           CI: false
 
+      - name: Install dependencies
+        run: yarn add firebase/compat/firestore
+        env:
+          CI: false
+
       - name: Build Development
         run: yarn build
         env:
