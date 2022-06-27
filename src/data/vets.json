@@ -1,0 +1,145 @@
+{
+  "pet_services": [
+    {
+      "id": "1",
+      "sku": "asdf123",
+      "name": "Vet C. de Velázquez",
+      "lat": 40.43635573038929,
+      "lng": -3.6829797079659983,
+      "address": "C. de Velázquez, 118, 28006 Madrid, Spain",
+      "icon": "../../data/icons/vets.svg",
+      "price": 11.5,
+      "discount": 10,
+      "rating": 4,
+      "rating_stars": "/assets/img/ratings/four-stars.png",
+      "saleCount": 5,
+      "wishlistCount": 10,
+      "ratingCount": 5,
+      "category": ["veterinary"],
+      "variation": [
+        {
+          "color": "black",
+          "image": "/assets/img/products/product1.png",
+          "stock": 20
+        },
+        {
+          "color": "violet",
+          "image": "/assets/img/products/product2.png",
+          "stock": 10
+        },
+        {
+          "color": "pink",
+          "image": "/assets/img/products/product3.png",
+          "stock": 5
+        },
+        {
+          "color": "brown",
+          "image": "/assets/img/products/product4.png",
+          "stock": 2
+        }
+      ],
+      "image": ["/assets/img/products/vett.png"],
+      "galleryImage": [
+        "/assets/img/product-slider/product1.png",
+        "/assets/img/product-slider/product1.1.png",
+        "/assets/img/product-slider/product1.2.png"
+      ],
+      "shortDescription": "Make your dog look like a bad ass!",
+      "fullDescription": "Disclaimer: This is not a real cigar. No dogs will be harmed by the use of the product."
+    },
+    {
+      "id": "5",
+      "sku": "asdf123",
+      "name": "Dog Acupuncture",
+      "lat": 40.441080551697944, 
+      "lng": -3.7007479412066764,
+      "address": "Pl. del Descubridor Diego de Ordás, 1, 28003 Madrid, Spain",
+      "icon": "../../data/icons/vets.svg",
+      "price": 11.5,
+      "discount": 10,
+      "rating": 3,
+      "rating_stars": "/assets/img/ratings/three-stars.png",
+      "saleCount": 5,
+      "wishlistCount": 10,
+      "ratingCount": 5,
+      "category": ["other", "veterinary"],
+      "variation": [
+        {
+          "color": "black",
+          "image": "/assets/img/products/product1.png",
+          "stock": 20
+        },
+        {
+          "color": "violet",
+          "image": "/assets/img/products/product2.png",
+          "stock": 10
+        },
+        {
+          "color": "pink",
+          "image": "/assets/img/products/product3.png",
+          "stock": 5
+        },
+        {
+          "color": "brown",
+          "image": "/assets/img/products/product4.png",
+          "stock": 2
+        }
+      ],
+      "image": ["/assets/img/products/acupuncture1.jpeg"],
+      "galleryImage": [
+        "/assets/img/product-slider/product1.png",
+        "/assets/img/product-slider/product1.1.png",
+        "/assets/img/product-slider/product1.2.png"
+      ],
+      "shortDescription": "Make your dog look like a bad ass!",
+      "fullDescription": "Disclaimer: This is not a real cigar. No dogs will be harmed by the use of the product."
+    },
+    {
+      "id": "6",
+      "sku": "asdf124",
+      "name": "Veterinary Chamberi",
+      "lat": 40.45004658195688,  
+      "lng": -3.7013577452015283,
+      "address": "C. de Palencia, 29, 28020 Madrid, Spain",
+      "icon": "../../data/icons/balloon.svg",
+      "price": 2.45,
+      "discount": 15,
+      "rating": 3,
+      "rating_stars": "/assets/img/ratings/three-stars.png",
+      "saleCount": 74,
+      "wishlistCount": 11,
+      "ratingCount": 8,
+      "category": ["veterinary"],
+      "variation": [
+        {
+          "color": "black",
+          "image": "/assets/img/products/product2.png",
+          "stock": 20
+        },
+        {
+          "color": "violet",
+          "image": "/assets/img/products/product3.png",
+          "stock": 10
+        },
+        {
+          "color": "pink",
+          "image": "/assets/img/products/product4.png",
+          "stock": 5
+        },
+        {
+          "color": "brown",
+          "image": "/assets/img/products/product5.png",
+          "stock": 2
+        }
+      ],
+      "image": ["/assets/img/products/vet-chamberi-1.png"],
+      "galleryImage": [
+        "/assets/img/product-slider/product2.png",
+        "/assets/img/product-slider/product3.png",
+        "/assets/img/product-slider/product4.png"
+      ],
+      "shortDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusant",
+      "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+    }
+  ]
+}

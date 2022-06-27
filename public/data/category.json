@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "name": "Groomers",
+    "image": "/assets/img/icons/category/scissors.svg",
+    "url": "/groomers"
+  },
+  {
+    "id": "2",
+    "name": "Daycares",
+    "image": "/assets/img/icons/category/services.svg",
+    "url": "/daycares"
+  },
+  {
+    "id": "3",
+    "name": "Events",
+    "image": "/assets/img/icons/category/balloon.svg",
+    "url": "/events"
+  },
+  {
+    "id": "4",
+    "name": "Vets",
+    "image": "/assets/img/icons/category/vets.svg",
+    "url": "/vets"
+  },
+  {
+    "id": "5",
+    "name": "Other",
+    "image": "/assets/img/icons/category/other.svg",
+    "url": "/other"
+  },
+  {
+    "id": "6",
+    "name": "eCommerce (soon)",
+    "image": "/assets/img/icons/category/hairdryer.svg",
+    "url": "/home"
+  }
+]

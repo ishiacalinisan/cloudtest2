@@ -1,0 +1,114 @@
+/*=============================================
+=            Common            =
+=============================================*/
+
+.bg-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.border-bottom {
+    border-bottom: 1px solid $grey--seven !important;
+    &--medium {
+        border-bottom: 2px solid $grey--seven !important;
+    }
+    &--thick {
+        border-bottom: 3px solid $grey--seven !important;
+    }
+}
+
+.body-wrapper {
+    &.active-overlay {
+        overflow: hidden;
+        &:before {
+            position: fixed;
+            z-index: 999;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+
+            content: "";
+
+            background: transparent;
+        }
+    }
+}
+
+.Calendar {
+    border-collapse: collapse;
+    padding: 0;
+    margin: 1rem auto 0;
+    background: #fff;
+}
+
+.Calendar th,
+.Calendar td {
+    padding: .25rem;
+    text-align: center;
+}
+
+.Calendar th {
+    background: #ddd;
+    padding: .5rem 1rem;
+}
+
+.Calendar .month-header {
+    border-bottom: 1px solid #fff;
+}
+
+.Calendar .nav .nav-inner {
+  cursor: pointer;
+  border: 0;
+  background: none transparent;
+}
+
+.Calendar .Day {
+    cursor: pointer;
+}
+
+.Calendar .Day .Day-inner {
+    background: none transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    width: 2.5rem;
+}
+
+.Calendar .Day button.Day-inner {
+    border: 0;
+}
+
+.Calendar .Day a.Day-inner {
+    color: inherit;
+}
+
+.Calendar .Day.weekend {
+    background: #bdc3c7;
+    color: #000;
+}
+
+.Calendar .Day.other-month {
+    color: #999;
+    font-style: italic;
+}
+
+.Calendar .Day.today .Day-inner {
+    background: #fafad2;
+    color: #000;
+}
+
+.Calendar .Day:hover .Day-inner {
+    background: #eee;
+    color: #000;
+}
+
+.Calendar .Day.selected .Day-inner {
+    background: #2980b9;
+    color: #fff;
+}
+
+/*=====  End of Common  ======*/

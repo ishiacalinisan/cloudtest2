@@ -1,0 +1,51 @@
+{
+  "pet_services": [
+    {
+      "id": "4",
+      "sku": "asdf124",
+      "name": "Perro Fiestas",
+      "lat": 40.427817798613184, 
+      "lng": -3.683605677843208,
+      "address": "C. de Velázquez, 54, 28001 Madrid, Spain",
+      "icon": "../../data/icons/balloon.svg",
+      "price": 2.45,
+      "discount": 15,
+      "rating": 3,
+      "rating_stars": "/assets/img/ratings/three-stars.png",
+      "saleCount": 74,
+      "wishlistCount": 11,
+      "ratingCount": 8,
+      "category": ["events"],
+      "variation": [
+        {
+          "color": "black",
+          "image": "/assets/img/products/product2.png",
+          "stock": 20
+        },
+        {
+          "color": "violet",
+          "image": "/assets/img/products/product3.png",
+          "stock": 10
+        },
+        {
+          "color": "pink",
+          "image": "/assets/img/products/product4.png",
+          "stock": 5
+        },
+        {
+          "color": "brown",
+          "image": "/assets/img/products/product5.png",
+          "stock": 2
+        }
+      ],
+      "image": ["/assets/img/products/vett.png"],
+      "galleryImage": [
+        "/assets/img/product-slider/product2.png",
+        "/assets/img/product-slider/product3.png",
+        "/assets/img/product-slider/product4.png"
+      ],
+      "shortDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusant",
+      "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+    }
+  ]
+}

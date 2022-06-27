@@ -1,0 +1,328 @@
+{
+  "pet_services": [
+    {
+      "id": "3",
+      "sku": "asdf123",
+      "name": "Peticure",
+      "lat": 40.43562483405078, 
+      "lng": -3.6896040764903706,
+      "address": "P.º de la Castellana, 43, 28046 Madrid, Spain",
+      "icon": "../../data/icons/balloon.svg",
+      "price": 11.5,
+      "discount": 10,
+      "rating": 3,
+      "saleCount": 5,
+      "wishlistCount": 10,
+      "ratingCount": 5,
+      "category": ["groomer", "other"],
+      "variation": [
+        {
+          "color": "black",
+          "image": "/assets/img/products/product1.png",
+          "stock": 20
+        },
+        {
+          "color": "violet",
+          "image": "/assets/img/products/product2.png",
+          "stock": 10
+        },
+        {
+          "color": "pink",
+          "image": "/assets/img/products/product3.png",
+          "stock": 5
+        },
+        {
+          "color": "brown",
+          "image": "/assets/img/products/product4.png",
+          "stock": 2
+        }
+      ],
+      "image": ["/assets/img/products/product1.png"],
+      "galleryImage": [
+        "/assets/img/product-slider/product1.png",
+        "/assets/img/product-slider/product1.1.png",
+        "/assets/img/product-slider/product1.2.png"
+      ],
+      "shortDescription": "Make your dog look like a bad ass!",
+      "fullDescription": "Disclaimer: This is not a real cigar. No dogs will be harmed by the use of the product."
+    }
+  ],
+  "available_services": [
+    {
+      "id": "31",
+      "sku": "asdf123",
+      "name": "Full trim",
+      "lat": 40.43562483405078, 
+      "lng": -3.6896040764903706,
+      "address": "P.º de la Castellana, 43, 28046 Madrid, Spain",
+      "icon": "../../data/icons/balloon.svg",
+      "price": 11.5,
+      "discount": 10,
+      "rating": 3,
+      "saleCount": 5,
+      "wishlistCount": 10,
+      "ratingCount": 5,
+      "category": ["groomer", "other"],
+      "variation": [
+        {
+          "color": "black",
+          "image": "/assets/img/products/product1.png",
+          "stock": 20
+        },
+        {
+          "color": "violet",
+          "image": "/assets/img/products/product2.png",
+          "stock": 10
+        },
+        {
+          "color": "pink",
+          "image": "/assets/img/products/product3.png",
+          "stock": 5
+        },
+        {
+          "color": "brown",
+          "image": "/assets/img/products/product4.png",
+          "stock": 2
+        }
+      ],
+      "image": ["/assets/img/products/peticure.jpeg"],
+      "galleryImage": [
+        "/assets/img/product-slider/product1.png",
+        "/assets/img/product-slider/product1.1.png",
+        "/assets/img/product-slider/product1.2.png"
+      ],
+      "shortDescription": "Make your dog look like a bad ass!",
+      "fullDescription": "Disclaimer: This is not a real cigar. No dogs will be harmed by the use of the product."
+    },
+    {
+      "id": "32",
+      "sku": "asdf123",
+      "name": "Fur Coloring",
+      "lat": 40.43562483405078, 
+      "lng": -3.6896040764903706,
+      "address": "P.º de la Castellana, 43, 28046 Madrid, Spain",
+      "icon": "../../data/icons/balloon.svg",
+      "price": 11.5,
+      "discount": 10,
+      "rating": 3,
+      "saleCount": 5,
+      "wishlistCount": 10,
+      "ratingCount": 5,
+      "category": ["groomer", "other"],
+      "variation": [
+        {
+          "color": "black",
+          "image": "/assets/img/products/product1.png",
+          "stock": 20
+        },
+        {
+          "color": "violet",
+          "image": "/assets/img/products/product2.png",
+          "stock": 10
+        },
+        {
+          "color": "pink",
+          "image": "/assets/img/products/product3.png",
+          "stock": 5
+        },
+        {
+          "color": "brown",
+          "image": "/assets/img/products/product4.png",
+          "stock": 2
+        }
+      ],
+      "image": ["/assets/img/products/product1.png"],
+      "galleryImage": [
+        "/assets/img/product-slider/product1.png",
+        "/assets/img/product-slider/product1.1.png",
+        "/assets/img/product-slider/product1.2.png"
+      ],
+      "shortDescription": "Make your dog look like a bad ass!",
+      "fullDescription": "Disclaimer: This is not a real cigar. No dogs will be harmed by the use of the product."
+    },
+    {
+      "id": "33",
+      "sku": "asdf123",
+      "name": "Peticure",
+      "lat": 40.43562483405078, 
+      "lng": -3.6896040764903706,
+      "address": "P.º de la Castellana, 43, 28046 Madrid, Spain",
+      "icon": "../../data/icons/balloon.svg",
+      "price": 11.5,
+      "discount": 10,
+      "rating": 3,
+      "saleCount": 5,
+      "wishlistCount": 10,
+      "ratingCount": 5,
+      "category": ["groomer", "other"],
+      "variation": [
+        {
+          "color": "black",
+          "image": "/assets/img/products/product1.png",
+          "stock": 20
+        },
+        {
+          "color": "violet",
+          "image": "/assets/img/products/product2.png",
+          "stock": 10
+        },
+        {
+          "color": "pink",
+          "image": "/assets/img/products/product3.png",
+          "stock": 5
+        },
+        {
+          "color": "brown",
+          "image": "/assets/img/products/product4.png",
+          "stock": 2
+        }
+      ],
+      "image": ["/assets/img/products/product1.png"],
+      "galleryImage": [
+        "/assets/img/product-slider/product1.png",
+        "/assets/img/product-slider/product1.1.png",
+        "/assets/img/product-slider/product1.2.png"
+      ],
+      "shortDescription": "Make your dog look like a bad ass!",
+      "fullDescription": "Disclaimer: This is not a real cigar. No dogs will be harmed by the use of the product."
+    },
+    {
+      "id": "34",
+      "sku": "asdf123",
+      "name": "Peticure",
+      "lat": 40.43562483405078, 
+      "lng": -3.6896040764903706,
+      "address": "P.º de la Castellana, 43, 28046 Madrid, Spain",
+      "icon": "../../data/icons/balloon.svg",
+      "price": 11.5,
+      "discount": 10,
+      "rating": 3,
+      "saleCount": 5,
+      "wishlistCount": 10,
+      "ratingCount": 5,
+      "category": ["groomer", "other"],
+      "variation": [
+        {
+          "color": "black",
+          "image": "/assets/img/products/product1.png",
+          "stock": 20
+        },
+        {
+          "color": "violet",
+          "image": "/assets/img/products/product2.png",
+          "stock": 10
+        },
+        {
+          "color": "pink",
+          "image": "/assets/img/products/product3.png",
+          "stock": 5
+        },
+        {
+          "color": "brown",
+          "image": "/assets/img/products/product4.png",
+          "stock": 2
+        }
+      ],
+      "image": ["/assets/img/products/product1.png"],
+      "galleryImage": [
+        "/assets/img/product-slider/product1.png",
+        "/assets/img/product-slider/product1.1.png",
+        "/assets/img/product-slider/product1.2.png"
+      ],
+      "shortDescription": "Make your dog look like a bad ass!",
+      "fullDescription": "Disclaimer: This is not a real cigar. No dogs will be harmed by the use of the product."
+    },
+    {
+      "id": "35",
+      "sku": "asdf123",
+      "name": "Peticure",
+      "lat": 40.43562483405078, 
+      "lng": -3.6896040764903706,
+      "address": "P.º de la Castellana, 43, 28046 Madrid, Spain",
+      "icon": "../../data/icons/balloon.svg",
+      "price": 11.5,
+      "discount": 10,
+      "rating": 3,
+      "saleCount": 5,
+      "wishlistCount": 10,
+      "ratingCount": 5,
+      "category": ["groomer", "other"],
+      "variation": [
+        {
+          "color": "black",
+          "image": "/assets/img/products/product1.png",
+          "stock": 20
+        },
+        {
+          "color": "violet",
+          "image": "/assets/img/products/product2.png",
+          "stock": 10
+        },
+        {
+          "color": "pink",
+          "image": "/assets/img/products/product3.png",
+          "stock": 5
+        },
+        {
+          "color": "brown",
+          "image": "/assets/img/products/product4.png",
+          "stock": 2
+        }
+      ],
+      "image": ["/assets/img/products/product1.png"],
+      "galleryImage": [
+        "/assets/img/product-slider/product1.png",
+        "/assets/img/product-slider/product1.1.png",
+        "/assets/img/product-slider/product1.2.png"
+      ],
+      "shortDescription": "Make your dog look like a bad ass!",
+      "fullDescription": "Disclaimer: This is not a real cigar. No dogs will be harmed by the use of the product."
+    },
+    {
+      "id": "36",
+      "sku": "asdf123",
+      "name": "Peticure",
+      "lat": 40.43562483405078, 
+      "lng": -3.6896040764903706,
+      "address": "P.º de la Castellana, 43, 28046 Madrid, Spain",
+      "icon": "../../data/icons/balloon.svg",
+      "price": 11.5,
+      "discount": 10,
+      "rating": 3,
+      "saleCount": 5,
+      "wishlistCount": 10,
+      "ratingCount": 5,
+      "category": ["groomer", "other"],
+      "variation": [
+        {
+          "color": "black",
+          "image": "/assets/img/products/product1.png",
+          "stock": 20
+        },
+        {
+          "color": "violet",
+          "image": "/assets/img/products/product2.png",
+          "stock": 10
+        },
+        {
+          "color": "pink",
+          "image": "/assets/img/products/product3.png",
+          "stock": 5
+        },
+        {
+          "color": "brown",
+          "image": "/assets/img/products/product4.png",
+          "stock": 2
+        }
+      ],
+      "image": ["/assets/img/products/product1.png"],
+      "galleryImage": [
+        "/assets/img/product-slider/product1.png",
+        "/assets/img/product-slider/product1.1.png",
+        "/assets/img/product-slider/product1.2.png"
+      ],
+      "shortDescription": "Make your dog look like a bad ass!",
+      "fullDescription": "Disclaimer: This is not a real cigar. No dogs will be harmed by the use of the product."
+    }
+  ]
+}

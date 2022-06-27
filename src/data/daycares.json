@@ -1,0 +1,98 @@
+{
+  "pet_services": [
+    {
+      "id": "8",
+      "sku": "asdf124",
+      "name": "Pet Daycare C. de Ferraz",
+      "lat": 40.43223591000139,  
+      "lng": -3.723301859641212,
+      "address": "C. de Ferraz, 77, 28008 Madrid, Spain",
+      "icon": "../../data/icons/balloon.svg",
+      "price": 2.45,
+      "discount": 15,
+      "rating": 3,
+      "rating_stars": "/assets/img/ratings/three-stars.png",
+      "saleCount": 74,
+      "wishlistCount": 11,
+      "ratingCount": 8,
+      "category": ["daycare"],
+      "variation": [
+        {
+          "color": "black",
+          "image": "/assets/img/products/product2.png",
+          "stock": 20
+        },
+        {
+          "color": "violet",
+          "image": "/assets/img/products/product3.png",
+          "stock": 10
+        },
+        {
+          "color": "pink",
+          "image": "/assets/img/products/product4.png",
+          "stock": 5
+        },
+        {
+          "color": "brown",
+          "image": "/assets/img/products/product5.png",
+          "stock": 2
+        }
+      ],
+      "image": ["/assets/img/products/daycare.png"],
+      "galleryImage": [
+        "/assets/img/product-slider/product2.png",
+        "/assets/img/product-slider/product3.png",
+        "/assets/img/product-slider/product4.png"
+      ],
+      "shortDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusant",
+      "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+    },
+    {
+      "id": "10",
+      "sku": "asdf124",
+      "name": "Dogwatchers",
+      "lat": 40.42713217062408,   
+      "lng": -3.7016938851270713,
+      "address": "C. de San Mateo, 13, 28004 Madrid, Spain",
+      "icon": "../../data/icons/balloon.svg",
+      "price": 2.45,
+      "discount": 15,
+      "rating": 4,
+      "rating_stars": "/assets/img/ratings/four-stars.png",
+      "saleCount": 74,
+      "wishlistCount": 11,
+      "ratingCount": 8,
+      "category": ["daycare"],
+      "variation": [
+        {
+          "color": "black",
+          "image": "/assets/img/products/product2.png",
+          "stock": 20
+        },
+        {
+          "color": "violet",
+          "image": "/assets/img/products/product3.png",
+          "stock": 10
+        },
+        {
+          "color": "pink",
+          "image": "/assets/img/products/product4.png",
+          "stock": 5
+        },
+        {
+          "color": "brown",
+          "image": "/assets/img/products/product5.png",
+          "stock": 2
+        }
+      ],
+      "image": ["/assets/img/products/dawg.png"],
+      "galleryImage": [
+        "/assets/img/product-slider/product2.png",
+        "/assets/img/product-slider/product3.png",
+        "/assets/img/product-slider/product4.png"
+      ],
+      "shortDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusant",
+      "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+    }
+  ]
+}

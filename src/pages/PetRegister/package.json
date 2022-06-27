@@ -1,0 +1,5 @@
+{
+  "name": "petregister",
+  "private": true,
+  "main": "./PetRegister.js"
+}

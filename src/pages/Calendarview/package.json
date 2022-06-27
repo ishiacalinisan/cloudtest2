@@ -1,0 +1,5 @@
+{
+  "name": "calendarview",
+  "private": true,
+  "main": "./Calendarview.js"
+}

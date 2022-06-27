@@ -1,0 +1,5 @@
+{
+  "name": "groomers",
+  "private": true,
+  "main": "./Groomers.js"
+}

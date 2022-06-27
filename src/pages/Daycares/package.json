@@ -1,0 +1,5 @@
+{
+  "name": "daycares",
+  "private": true,
+  "main": "./Daycares.js"
+}

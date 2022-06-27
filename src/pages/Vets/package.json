@@ -1,0 +1,5 @@
+{
+  "name": "vets",
+  "private": true,
+  "main": "./Vets.js"
+}
