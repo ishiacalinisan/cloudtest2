@@ -20,7 +20,7 @@ import Calendar from 'react-calendar-pane';
 // Firestore
 import firebase from "firebase/compat/app";
 import "firebase/compat/firestore";
-import db from '../../components/fig/FirestoreConfig.js';
+import db from "../../components/FirestoreConfig/FirestoreConfig";
 
 function FirestoreData(props) {
   const [bookings,setBookings]=useState([])
