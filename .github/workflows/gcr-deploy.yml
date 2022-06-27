@@ -29,11 +29,6 @@ jobs:
         env:
           CI: false
 
-      - name: Install calendar
-        run: yarn add react-calendar-pane
-        env:
-          CI: false
-
       - name: Build Development
         run: yarn build
         env:
