@@ -15,8 +15,12 @@ import * as ppspInfo from "../../data/services.json"
 
 
 // Firestore
-import firebase from "firebase/compat/app";   
+import firebase from "firebase/compat/app";
 import "firebase/compat/firestore";
+import db from '../../components/FirestoreConfig/FirestoreConfig.js';
+
+import moment, { calendarFormat } from 'moment';
+
 
 
 
@@ -24,6 +28,10 @@ class Product extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      selectedDate:[],
+      selectedTime:[],
+      selectedService:props.product.name,
+      selectedProvider:props.product.provider,
       selectedProductColor: props.product.variation
         ? props.product.variation[0].color
         : "",
@@ -33,6 +41,36 @@ class Product extends Component {
       quantityCount: 1
     };
   }
+  onSelectDate=()=>{
+    var date = document.getElementById('date').value;
+    var changed_date = this.changedateformat(date)
+    this.setState({selectedDate:changed_date});
+  }
+  onSelectTime=(e)=>{
+    this.setState({selectedTime:e.target.value});
+    
+  }
+  async setBookings(date, time, service, provider) {
+    const payload = {
+      date,
+      time,
+      service,
+      provider
+    }
+    const response= await db.collection('booking-calendar').add(payload);
+    }
+  changedateformat=(val)=> {
+      const myArray = val.split("-");
+
+      let year = myArray[0];
+      let month = myArray[1];
+      let day = myArray[2];
+
+      let formatteddate = day + "-" + month + "-" + year; 
+      return formatteddate;
+  }
+
+
   render() {
     const {
       product,
@@ -59,7 +97,14 @@ class Product extends Component {
       cartItems,
       product,
       selectedProductColor
-    );
+    )
+
+    console.log(this.state.selectedDate)
+    console.log(this.state.selectedTime)
+    console.log(this.state.selectedService)
+    console.log(this.state.selectedProvider)
+    
+    ;
     return (
       <div className="body-wrapper space-pt--70 space-pb--120">
         {/*====================  product image slider ====================*/}
@@ -168,10 +213,10 @@ class Product extends Component {
             <div className="row">
               <div className="col-12">
                 <div>
-                  <form action="/date">
+                  <form action="/date" onSelect={this.onSelectDate}>
                     <label>
                       <h4 className="space-mb--5">Select your preferred date</h4>
-                      <input type="date" name="bday">
+                      <input type="date" name="bday" id="date" >
                       </input>
                     </label>
                   </form>
@@ -195,14 +240,14 @@ class Product extends Component {
                 <h4 className="space-mb--5">Select your preferred slot</h4>
                   <div className="days">
                     <div className="day">
-                      <div className="timeslot">9:00am</div>
-                      <div className="timeslot">9:30am</div>
-                      <div className="timeslot">10:00am</div>
+                      <button className="timeslot" onClick={this.onSelectTime} value={"09:00"}>09:00am</button>
+                      <button className="timeslot" onClick={this.onSelectTime} value={"09:30"}>09:30am</button>
+                      <button className="timeslot" onClick={this.onSelectTime} value={"10:00"}>10:00am</button>
                     </div>
                     <div className="day">
-                      <div className="timeslot">10:30am</div>
-                      <div className="timeslot">11:00am</div>
-                      <div className="timeslot">11:30am</div>
+                      <button className="timeslot" onClick={this.onSelectTime} value={"10:30"}>10:30am</button>
+                      <button className="timeslot" onClick={this.onSelectTime} value={"11:00"}>11:00am</button>
+                      <button className="timeslot" onClick={this.onSelectTime} value={"11:30"}>11:30am</button>
                     </div>
                   </div>
               </div>
@@ -224,12 +269,19 @@ class Product extends Component {
           {productStock && productStock > 0 ? (
             <button
               className="cart"
-              onClick={() =>
-                addToCart(product, quantityCount, selectedProductColor)
+              onClick={() =>{
+                addToCart(product, quantityCount, selectedProductColor);
+                this.setBookings(
+                  this.state.selectedDate, 
+                  this.state.selectedTime, 
+                  this.state.selectedService,
+                  this.state.selectedProvider
+                  );
+                }
               }
-              disabled={productCartQty >= productStock}
+            
             >
-              {productCartQty >= productStock ? "NO AVAILABILITY" : "ADD APPOINTMENT TO CART"}
+              ADD APPOINTMENT TO CART
             </button>
           ) : (
             <button className="cart" disabled>

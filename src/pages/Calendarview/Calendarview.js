@@ -11,7 +11,7 @@ import {
 import { getDiscountPrice } from "../../helpers/product";
 import { Breadcrumb } from "../../components";
 
-//from tutorial 
+//from tutorial
 import {CalendarComponent} from '@syncfusion/ej2-react-calendars';
 import moment, { calendarFormat } from 'moment';
 import Calendar from 'react-calendar-pane';
@@ -20,48 +20,43 @@ import Calendar from 'react-calendar-pane';
 // Firestore
 import firebase from "firebase/compat/app";
 import "firebase/compat/firestore";
-import db from "../../components/FirestoreConfig/FirestoreConfig";
-
-function FirestoreData(props) {
-  const [bookings,setBookings]=useState([])
-  const fetchBookings=async()=>{
-    const response=db.collection('booking-calendar');
-    const data=await response.where("date", "==", props.input).get();
-    data.docs.forEach(item=>{
-      setBookings([...bookings,item.data()])
-    })
-  }
-  useEffect(() => {
-    fetchBookings();
-  }, [])
-  return (
-    <div className="FirestoreData">
-      <p> hello </p>
-      {
-        bookings && bookings.map(booking=>{
-          return(
-            <div className="booking-container" key={booking.id}>
-              <p key={booking.id}>{booking.date}</p>
-              <p key={booking.id}>{booking.service}</p>
-            </div>
-          )
-        })
-      }
-    </div>
-  );
-}
-
+import db from '../../components/FirestoreConfig/FirestoreConfig';
 
 
 class Calendarview extends Component {
   constructor() {
     super();
     this.state = {
-      selectedDate:moment()
+      selectedDate:moment(),
+      bookings:[],
+
     }
+    this.fetchBookings(moment());
   }
   onSelect=(e)=>{
-    this.setState({selectedDate:e})
+
+    this.setState({selectedDate:e});
+    this.fetchBookings(e);
+
+  }
+  async fetchBookings(date) {
+
+      const response=db.collection('booking-calendar');
+      const data= await response.where("date", "==", date.format('DD-MM-YYYY').toString()).get();
+      if (data.empty===false) {
+        data.docs.forEach(item=>{
+        this.setState({
+          bookings : item.data()
+        })
+      })} else {
+      this.setState({
+        bookings : []
+          }
+        )
+      }
+
+
+
   }
   render() {
     return (
@@ -72,13 +67,21 @@ class Calendarview extends Component {
               <Calendar date={moment()} onSelect={this.onSelect} />
               <br></br>
               <div>
-                <p> The date you've selected is: {this.state.selectedDate.format('DD-MM-YYYY')} </p>
+                <h7> Bookings for: <b>{this.state.selectedDate.format('DD-MM-YYYY').toString()}</b> </h7>
               </div>
+              <br></br>
               <div>
-                <FirestoreData input={this.state.selectedDate.format('DD-MM-YYYY')} />
-              </div>
-          
 
+              <div key={this.state.bookings.date}>
+                <p key={this.state.bookings.id}><b>Provider</b>: {this.state.bookings.provider}</p>
+                <p key={this.state.bookings.id}><b>Service</b>: {this.state.bookings.service}</p>
+                <p key={this.state.bookings.id}><b>Time</b>: {this.state.bookings.time}</p>
+
+              </div>
+
+
+           {/* <FirestoreData input={this.state.selectedDate.format('DD-MM-YYYY').toString()} /> */}
+              </div>
             </center>
           </Fragment>
 
