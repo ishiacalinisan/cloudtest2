@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@react-google-maps/api": "^2.12.0",
+    "@syncfusion/ej2-react-calendars": "^20.1.58",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -29,11 +30,17 @@
     "uuid": "^7.0.2",
     "yarn": "^1.22.18",
     "@syncfusion/ej2-react-calendars": "^20.1.58",
-    "@syncfusion/ej2-react-splitbuttons": "^20.1.57"
+    "@syncfusion/ej2-react-splitbuttons": "^20.1.57",
+    "firebase": "^9.8.3",
+    "moment": "^2.29.3",
+    "react-accessible-dropdown-menu-hook": "^3.2.0",
+    "react-calendar": "^3.7.0",
+    "react-calendar-pane": "^1.0.4",
+    "react-dropdown": "^1.10.0"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts --openssl-legacy-provider build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
