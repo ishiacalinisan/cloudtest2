@@ -40,12 +40,12 @@ const Footer = () => {
           </div>
         </Link>
         <Link
-          to={process.env.PUBLIC_URL + "/profile"}
+          to={process.env.PUBLIC_URL + "/cart"}
           className="footer-nav-single"
         >
           <div className="menu-wrapper"> 
             <ReactSVG
-              src={process.env.PUBLIC_URL + "/assets/img/icons/cart-three.svg"}
+              src={process.env.PUBLIC_URL + "/assets/img/icons/cart-big.svg"}
             />
             <span>Cart</span>
           </div>
