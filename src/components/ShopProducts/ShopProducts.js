@@ -11,8 +11,8 @@ class ShopProducts extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      gridActivate: true,
-      listActivate: false
+      gridActivate: false,
+      listActivate: true
     };
 
     this.setGridActive = this.setGridActive.bind(this);
