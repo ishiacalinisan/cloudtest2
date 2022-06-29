@@ -91,7 +91,7 @@ class ShopProviders extends Component {
                         {single.address}
                       </span>
 
-                  </div>
+                  </div> 
                 </div>
               );
             })}
