@@ -43,11 +43,11 @@ const Footer = () => {
           to={process.env.PUBLIC_URL + "/profile"}
           className="footer-nav-single"
         >
-          <div className="menu-wrapper">
+          <div className="menu-wrapper"> 
             <ReactSVG
-              src={process.env.PUBLIC_URL + "/assets/img/icons/profile.svg"}
+              src={process.env.PUBLIC_URL + "/assets/img/icons/cart-three.svg"}
             />
-            <span>Profile</span>
+            <span>Cart</span>
           </div>
         </Link>
       </div>
