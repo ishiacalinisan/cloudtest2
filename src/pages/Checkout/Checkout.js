@@ -129,7 +129,7 @@ const Checkout = ({ cartItems }) => {
                           <div className="your-order-total">
                             <ul>
                               <li className="order-total">Total</li>
-                              <li>${cartTotalPrice.toFixed(2)}</li>
+                              <li>€{cartTotalPrice.toFixed(2)}</li>
                             </ul>
                           </div>
                         </div>
