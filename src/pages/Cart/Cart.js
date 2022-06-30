@@ -133,11 +133,11 @@ class Cart extends Component {
                       <h4 className="cart-bottom-title">Cart Total</h4>
                     </div>
                     <h5>
-                      Total price <span>${cartTotalPrice.toFixed(2)}</span>
+                      Total price <span>€{cartTotalPrice.toFixed(2)}</span>
                     </h5>
 
                     <h4 className="grand-total-title">
-                      Grand Total <span>${cartTotalPrice.toFixed(2)}</span>
+                      Grand Total <span>€{cartTotalPrice.toFixed(2)}</span>
                     </h4>
                     <Link to={process.env.PUBLIC_URL + "/checkout"}>
                       Proceed to Checkout
